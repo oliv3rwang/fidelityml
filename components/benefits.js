@@ -9,27 +9,11 @@ export default function Benefits(props) {
     <>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
-          className={`flex items-center justify-center w-full lg:w-1/2 ${
-            props.imgPos === "right" ? "lg:order-1" : ""
-          }`}>
-          <div>
-            <Image
-              src={data.image}
-              width="521"
-              height="482"
-              alt="Benefits"
-              layout="intrinsic"
-              placeholder="blur"
-            />
-          </div>
-        </div>
-
-        <div
-          className={`flex flex-wrap items-center w-full lg:w-1/2 ${
+          className={`flex flex-wrap items-center w-full lg:w-1/3 ${
             props.imgPos === "right" ? "lg:justify-end" : ""
           }`}>
           <div>
-            <div className="flex flex-col w-full mt-4">
+            <div className="w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
                 {data.title}
               </h3>
@@ -38,14 +22,108 @@ export default function Benefits(props) {
                 {data.desc}
               </p>
             </div>
-
-            <div className="w-full mt-5">
-              {data.bullets.map((item, index) => (
-                <Benefit key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
-                </Benefit>
-              ))}
+          </div>
+        </div>
+        <div
+          className={`flex items-center justify-center w-full lg:w-2/3 ${
+            props.imgPos === "right" ? "lg:order-1" : ""
+          }`}>
+          <div className="flex-row">
+            <div
+              className={`flex items-center justify-center w-full lg:w-1/3 ${
+                props.imgPos === "right" ? "lg:order-1" : ""
+              }`}>
+              <Image
+                src={data.image}
+                width="100"
+                height="100"
+                alt="Benefits"
+                layout="intrinsic"
+                placeholder="blur"
+              />
             </div>
+              <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Collaborative Outcomes</h1>
+              <p>AI and ML Implementations</p>
+            <div
+              className={`flex items-center justify-center w-full lg:w-1/3 ${
+                props.imgPos === "right" ? "lg:order-1" : ""
+              }`}>
+              <Image
+                src={data.image}
+                width="100"
+                height="100"
+                alt="Benefits"
+                layout="intrinsic"
+                placeholder="blur"
+              />
+            </div>
+              <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Experts</h1>
+              <p>Our team is certified in industry leading</p>
+              <p>technologies</p>
+            <div
+              className={`flex items-center justify-center w-full lg:w-1/3 ${
+                props.imgPos === "right" ? "lg:order-1" : ""
+              }`}>
+              <Image
+                src={data.image}
+                width="100"
+                height="100"
+                alt="Benefits"
+                layout="intrinsic"
+                placeholder="blur"
+              />
+            </div>
+              <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Best in Class Experts</h1>
+              <p>Certified Cloud Practitioners</p>
+          </div>
+          <div className="flex-row">
+            <div
+              className={`flex items-center justify-center w-full lg:w-1/3 ${
+                props.imgPos === "right" ? "lg:order-1" : ""
+              }`}>
+              <Image
+                src={data.image}
+                width="100"
+                height="100"
+                alt="Benefits"
+                layout="intrinsic"
+                placeholder="blur"
+              />
+            </div>
+              <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Partnerships</h1>
+              <p>Cloud first delivery model</p>
+            <div
+              className={`flex items-center justify-center w-full lg:w-1/3 ${
+                props.imgPos === "right" ? "lg:order-1" : ""
+              }`}>
+              <Image
+                src={data.image}
+                width="100"
+                height="100"
+                alt="Benefits"
+                layout="intrinsic"
+                placeholder="blur"
+              />
+            </div>
+              <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Methodology</h1>
+              <p>We drive leapfrog innovation while working</p>
+              <p>with existing data & processes</p>
+            <div
+              className={`flex items-center justify-center w-full lg:w-1/3 ${
+                props.imgPos === "right" ? "lg:order-1" : ""
+              }`}>
+              <Image
+                src={data.image}
+                width="100"
+                height="100"
+                alt="Benefits"
+                layout="intrinsic"
+                placeholder="blur"
+              />
+            </div>
+              <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Speed</h1>
+              <p>We empower the ‘doers’ to make smart</p>
+              <p>decisions with data</p>
           </div>
         </div>
       </Container>

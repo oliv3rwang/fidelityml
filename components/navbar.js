@@ -3,7 +3,7 @@ import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = ["Accelerators", "Services", "Industries", "Resources", "Customers", "Company"];
 
   return (
     <div className="w-full">
@@ -18,13 +18,13 @@ export default function Navbar() {
                     <span>
                       <img
                         src="/img/logo.svg"
-                        alt="N"
+                        alt="ML"
                         width="32"
                         height="32"
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>FidelityML</span>
                   </a>
                 </Link>
 
@@ -85,16 +85,6 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className="hidden mr-3 space-x-3 lg:flex nav__item">
-          <Link href="/">
-            <a className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
-            </a>
-          </Link>
-
-          <ThemeChanger />
         </div>
       </nav>
     </div>

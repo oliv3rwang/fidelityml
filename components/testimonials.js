@@ -12,44 +12,35 @@ export default function Testimonials() {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
-            </p>
-
-            <Avatar
-              image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
-            />
+            <h1 className="text-2xl font-bold text-blue-400 leading-normal ">
+              SPECIALIZATION
+            </h1>
+            <p className="text-xl leading-10">AI & Machine Learning</p>
+            <p className="text-xl leading-10">Cloud Migration</p>
+            <p className="text-xl leading-10">Data Analytics & Visualization</p>
+            <p className="text-xl leading-10">Smart Application Development</p>
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
-            </p>
-
-            <Avatar
-              image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
-            />
+            <h1 className="text-2xl font-bold text-blue-400 leading-normal ">
+              CAPABILITIES
+            </h1>
+            <p className="text-xl leading-10">Marketing Analytics</p>
+            <p className="text-xl leading-10">Contact Center AI</p>
+            <p className="text-xl leading-10">Data Warehouse Migrations</p>
+            <p className="text-xl leading-10">Document Processing</p>
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I've seen. I
-              would use this for anything.
-            </p>
-
-            <Avatar
-              image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
-            />
+            <h1 className="text-2xl font-bold text-blue-400 leading-normal ">
+              SOLUTIONS
+            </h1>
+            <p className="text-xl leading-10">Omnichannel Customer Engagement</p>
+            <p className="text-xl leading-10">Java Application Modernization</p>
+            <p className="text-xl leading-10">Improper Payments</p>
+            <p className="text-xl leading-10">SpringML Vision AI Solutions</p>
           </div>
         </div>
       </div>
