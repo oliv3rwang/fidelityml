@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next start",
+    "export": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next export"
   },
   "repository": {
     "type": "git",
