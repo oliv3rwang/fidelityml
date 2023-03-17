@@ -4,7 +4,7 @@
   "description": "Nextly Landing Page Template",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export"
@@ -28,6 +28,7 @@
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
     "@tailwindcss/aspect-ratio": "^0.2.1",
+    "cross-env": "^7.0.3",
     "next": "^11.0.1",
     "next-themes": "^0.0.14",
     "react": "^17.0.1",
