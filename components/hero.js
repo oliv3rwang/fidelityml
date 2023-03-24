@@ -17,7 +17,7 @@ export default function Hero() {
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Our approach combines data, cloud infrastructure, and accelerators to unleash the full  potential of data-driven insights and automation.
             </p>
-            <div className="flex flex-col items-start space-x-3 space-y-3 sm:space-y-0 sm:items-center sm:flex-row">
+            {/* <div className="flex flex-col items-start space-x-3 space-y-3 sm:space-y-0 sm:items-center sm:flex-row">
               <a
                 href="https://github.com/web3templates"
                 target="_blank"
@@ -25,7 +25,7 @@ export default function Hero() {
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                 Learn More
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">

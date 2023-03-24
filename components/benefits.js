@@ -2,6 +2,13 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 
+import collab from "../public/img/collab.png";
+import partnerships from "../public/img/partnerships.png";
+import experts from "../public/img/experts.png";
+import method from "../public/img/method.png";
+import cloud from "../public/img/cloud.png";
+import speed from "../public/img/speed.png";
+
 export default function Benefits(props) {
   const { data } = props;
 
@@ -28,18 +35,17 @@ export default function Benefits(props) {
           className={`flex items-center justify-center w-full lg:w-2/3 ${
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}>
-          <div className="flex-row">
+          <div className="flex-row mr-8">
             <div
               className={`flex items-center justify-center w-full lg:w-1/3 ${
                 props.imgPos === "right" ? "lg:order-1" : ""
               }`}>
               <Image
-                src={data.image}
+                src={collab}
                 width="100"
                 height="100"
                 alt="Benefits"
                 layout="intrinsic"
-                placeholder="blur"
               />
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Collaborative Outcomes</h1>
@@ -49,7 +55,7 @@ export default function Benefits(props) {
                 props.imgPos === "right" ? "lg:order-1" : ""
               }`}>
               <Image
-                src={data.image}
+                src={experts}
                 width="100"
                 height="100"
                 alt="Benefits"
@@ -65,7 +71,7 @@ export default function Benefits(props) {
                 props.imgPos === "right" ? "lg:order-1" : ""
               }`}>
               <Image
-                src={data.image}
+                src={cloud}
                 width="100"
                 height="100"
                 alt="Benefits"
@@ -82,7 +88,7 @@ export default function Benefits(props) {
                 props.imgPos === "right" ? "lg:order-1" : ""
               }`}>
               <Image
-                src={data.image}
+                src={partnerships}
                 width="100"
                 height="100"
                 alt="Benefits"
@@ -97,7 +103,7 @@ export default function Benefits(props) {
                 props.imgPos === "right" ? "lg:order-1" : ""
               }`}>
               <Image
-                src={data.image}
+                src={method}
                 width="100"
                 height="100"
                 alt="Benefits"
@@ -113,7 +119,7 @@ export default function Benefits(props) {
                 props.imgPos === "right" ? "lg:order-1" : ""
               }`}>
               <Image
-                src={data.image}
+                src={speed}
                 width="100"
                 height="100"
                 alt="Benefits"

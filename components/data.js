@@ -4,7 +4,7 @@ import {
   CursorClickIcon,
 } from "@heroicons/react/outline";
 
-import benefitOneImg from "../public/img/benefit-one.png";
+import benefitOneImg from "../public/img/collab.png";
 
 const benefitOne = {
   title: "We are the catalysts driving the adoption of AI",
