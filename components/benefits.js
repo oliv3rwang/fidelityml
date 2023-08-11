@@ -49,7 +49,7 @@ export default function Benefits(props) {
               />
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Collaborative Outcomes</h1>
-              <p>AI and ML Implementations</p>
+              <p className="mb-6">AI and ML Implementations</p>
             <div
               className={`flex items-center justify-center w-full lg:w-1/3 ${
                 props.imgPos === "right" ? "lg:order-1" : ""
@@ -65,7 +65,7 @@ export default function Benefits(props) {
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Experts</h1>
               <p>Our team is certified in industry leading</p>
-              <p>technologies</p>
+              <p className="mb-6">technologies</p>
             <div
               className={`flex items-center justify-center w-full lg:w-1/3 ${
                 props.imgPos === "right" ? "lg:order-1" : ""
@@ -80,7 +80,7 @@ export default function Benefits(props) {
               />
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Best in Class Experts</h1>
-              <p>Certified Cloud Practitioners</p>
+              <p className="mb-6">Certified Cloud Practitioners</p>
           </div>
           <div className="flex-row">
             <div
@@ -97,7 +97,7 @@ export default function Benefits(props) {
               />
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Partnerships</h1>
-              <p>Cloud first delivery model</p>
+              <p className="mb-6">Cloud first delivery model</p>
             <div
               className={`flex items-center justify-center w-full lg:w-1/3 ${
                 props.imgPos === "right" ? "lg:order-1" : ""
@@ -113,7 +113,7 @@ export default function Benefits(props) {
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Methodology</h1>
               <p>We drive leapfrog innovation while working</p>
-              <p>with existing data & processes</p>
+              <p className="mb-6">with existing data & processes</p>
             <div
               className={`flex items-center justify-center w-full lg:w-1/3 ${
                 props.imgPos === "right" ? "lg:order-1" : ""
@@ -129,7 +129,7 @@ export default function Benefits(props) {
             </div>
               <h1 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Speed</h1>
               <p>We empower the ‘doers’ to make smart</p>
-              <p>decisions with data</p>
+              <p className="mb-6">decisions with data</p>
           </div>
         </div>
       </Container>
